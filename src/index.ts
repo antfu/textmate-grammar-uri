@@ -1,6 +1,4 @@
 import fs from 'node:fs/promises'
-import { hostname } from 'node:os'
-import { sep } from 'node:path'
 import type { LanguageRegistration } from 'shiki'
 
 const names = {

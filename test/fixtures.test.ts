@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises'
 import { expect, it } from 'vitest'
-import type { Highlighter } from 'shiki'
 import { getHighlighter } from 'shiki'
 import grammarUri from '../grammars/uri.json'
 
