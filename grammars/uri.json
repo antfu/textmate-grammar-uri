@@ -123,7 +123,7 @@
       }
     },
     "mailto": {
-      "match": "^(mailto)(:)(.*)(@)?(.*)$",
+      "match": "^(mailto)(:)([^@]*)(@)?(.*)$",
       "captures": {
         "1": {
           "name": "constant.language.uri.scheme"
@@ -136,7 +136,7 @@
           "name": "keyword.operator.uri.at"
         },
         "5": {
-          "name": "type.identifier.uri.extension"
+          "name": "entity.name.uri.hostname"
         }
       }
     },
@@ -228,7 +228,7 @@
           "name": "punctuation.separator.uri"
         },
         "3": {
-          "name": "meta.data.raw.uri"
+          "name": "comment.uri.data"
         }
       }
     },
@@ -253,7 +253,7 @@
       "match": "(#)(.*)$",
       "captures": {
         "1": {
-          "name": "keyword.operator.uri.fragment"
+          "name": "punctuation.separator.uri"
         },
         "2": {
           "name": "comment.uri.fragment"

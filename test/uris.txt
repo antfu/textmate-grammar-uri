@@ -1,12 +1,10 @@
 ../about.html
 ..\Publications\TravelBrochure.pdf
 ./about.html
-@foo/bar
 //developer.mozilla.org/en-US/docs/Learn/
 /home/user/python/test.py
 \Program Files\Custom Utilities\StringFinder.exe
 ~/website/main/about.html
-2018\January.xlsx
 C:\Documents\Newsletters\Summer2018.pdf
 data:text/html,%3Ch1%3EHello%2C%20World%21%3C%2Fh1%3E
 data:text/plain;base64,SGVsbG8sIFdvcmxkIQ==

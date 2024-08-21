@@ -12,7 +12,7 @@ const names = {
   query: 'entity.name.uri.query.key',
   queryKey: 'entity.name.uri.query.key',
   queryValue: 'string.value.uri.query.value',
-  data: 'meta.data.raw.uri',
+  data: 'comment.uri.data',
   fragment: 'comment.uri.fragment',
   encoded: 'constant.character.uri.encoded',
 }
@@ -92,13 +92,13 @@ export const grammarUri: LanguageRegistration = {
       },
     },
     'mailto': {
-      match: '^(mailto)(:)(.*)(@)?(.*)$',
+      match: '^(mailto)(:)([^@]*)(@)?(.*)$',
       captures: {
         1: { name: names.schema },
         2: { name: names.separator },
         3: { },
         4: { name: 'keyword.operator.uri.at' },
-        5: { name: names.extension },
+        5: { name: names.hostname },
       },
     },
     'host-user': {
@@ -171,7 +171,7 @@ export const grammarUri: LanguageRegistration = {
     'fragment': {
       match: '(#)(.*)$',
       captures: {
-        1: { name: 'keyword.operator.uri.fragment' },
+        1: { name: names.separator },
         2: { name: names.fragment },
       },
     },

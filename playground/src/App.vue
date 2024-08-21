@@ -3,7 +3,7 @@ import { computed, ref, shallowRef } from 'vue'
 import type { Highlighter } from 'shiki'
 import { getHighlighter } from 'shiki'
 import grammarUri from '../../grammars/uri.json'
-import fixtures from '../../test/urls.txt?raw'
+import fixtures from '../../test/uris.txt?raw'
 
 const code = ref(fixtures)
 const shiki = shallowRef<Highlighter>()
