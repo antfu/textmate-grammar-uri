@@ -31,7 +31,7 @@
     "start": "esno src/index.ts",
     "play": "nr -C playground dev",
     "test": "vitest",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "vue-tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
@@ -52,7 +52,8 @@
     "unbuild": "^2.0.0",
     "vite": "^5.2.8",
     "vitest": "^1.4.0",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-tsc": "^2.0.6"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
