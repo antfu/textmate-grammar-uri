@@ -8,6 +8,8 @@
 
 TextMate grammar for URI
 
+<img width="983" alt="Screenshot" src="https://github.com/user-attachments/assets/fc7e46b7-f7d4-4d82-a1f5-40ad07e0d323">
+
 ## Sponsors
 
 <p align="center">
