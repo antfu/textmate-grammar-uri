@@ -1,0 +1,24 @@
+../about.html
+..\Publications\TravelBrochure.pdf
+./about.html
+@foo/bar
+//developer.mozilla.org/en-US/docs/Learn/
+/home/user/python/test.py
+\Program Files\Custom Utilities\StringFinder.exe
+~/website/main/about.html
+2018\January.xlsx
+C:\Documents\Newsletters\Summer2018.pdf
+data:text/html,%3Ch1%3EHello%2C%20World%21%3C%2Fh1%3E
+data:text/plain;base64,SGVsbG8sIFdvcmxkIQ==
+file:///home/tim/page.html
+ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
+http://localhost:3000/foo
+http://username:password@example.com:80/myserver.com/
+https://192.168.1.1:8080/bar?query
+https://antfu.me/posts/shiki-magic-move?v=1&bar=true#how-it-works
+https://developer.mozilla.org
+https://developer.mozilla.org/en-US/docs/Learn/
+https://developer.mozilla.org/en-US/search?q=URL
+mailto:john.doe@mail.com
+node:fs/promises
+node:path
