@@ -1,7 +1,7 @@
 {
   "name": "textmate-grammar-uri",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.15.6",
   "description": "TextMate grammar for URI",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
